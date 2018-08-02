@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>824443694502-53rls6kmg8kr4on3d1p1cg5q58hmpv28.apps.googleusercontent.com</string>
+	<string>824443694502-koh0skfhrfam4e3h2mfbeuettt90nbv1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.824443694502-53rls6kmg8kr4on3d1p1cg5q58hmpv28</string>
+	<string>com.googleusercontent.apps.824443694502-koh0skfhrfam4e3h2mfbeuettt90nbv1</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCXpJUw9vvNSdvValgNiiQnS7W7H4xMU1A</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.hajjhackathon.nkoodi-vendor</string>
+	<string>com.hajjhackathon.nkoodiVendor</string>
 	<key>PROJECT_ID</key>
 	<string>nkoodi-789e8</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:824443694502:ios:976f7d085e953fc9</string>
+	<string>1:824443694502:ios:6cb27a3bccfec466</string>
 	<key>DATABASE_URL</key>
 	<string>https://nkoodi-789e8.firebaseio.com</string>
 </dict>
