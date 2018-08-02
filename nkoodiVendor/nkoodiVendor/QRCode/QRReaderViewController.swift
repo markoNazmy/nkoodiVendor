@@ -15,6 +15,7 @@ class QRReaderViewController: UIViewController {
     @IBOutlet weak var transferContactNameLabel: UILabel!
     @IBOutlet weak var qrCodeTextField: UITextField!
     @IBOutlet weak var amountTextField: UITextField!
+    var loading: UIActivityIndicatorView!
     
     var qrCodeTextFieldHasChanged: ((String)->())?
     
@@ -24,6 +25,7 @@ class QRReaderViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loading = UIActivityIndicatorView(frame: self.view.bounds)
         qrCodeTextField.delegate = self
         qrCodeTextFieldHasChanged = { text in
             self.transferContactNameLabel.text = "user name: " + text
@@ -61,8 +63,26 @@ class QRReaderViewController: UIViewController {
                 }}))
             self.present(alert, animated: true, completion: nil)
         }else {
-          //TODO Payment func
+            //TODO: Show Loading
+            
+            self.view.addSubview(loading)
+            loading.startAnimating()
+          requestTransaction()
         }
+    }
+    
+    func requestTransaction(){
+        if let userQr = qrCodeTextField.text,
+            let amountStr = amountTextField.text,
+            let amount = Double(amountStr){
+            TransactionsManager.shared.getUserWithQR(userQr) { (user) in
+                guard let user = user else{ return }
+                TransactionsManager.shared.createOperation(for: user, amount: amount, vendor: "Vendor", completion: { (status) in
+                    self.loading.stopAnimating()
+                })
+            }
+        }
+        
     }
 }
 

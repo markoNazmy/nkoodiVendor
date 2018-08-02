@@ -15,6 +15,9 @@
 		7062B5EB21124D23009F3E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7062B5E921124D23009F3E26 /* LaunchScreen.storyboard */; };
 		7062B5F621124D23009F3E26 /* nkoodiVendorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B5F521124D23009F3E26 /* nkoodiVendorTests.swift */; };
 		7062B60121124D23009F3E26 /* nkoodiVendorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B60021124D23009F3E26 /* nkoodiVendorUITests.swift */; };
+		8AA83EFF211330E8008F6CB0 /* TransactionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA83EFE211330E8008F6CB0 /* TransactionsManager.swift */; };
+		8AA83F01211331EC008F6CB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AA83F00211331EC008F6CB0 /* GoogleService-Info.plist */; };
+		8AA83F04211334A8008F6CB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA83F03211334A8008F6CB0 /* User.swift */; };
 		D4B8D041211291B700329A79 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D03E211291B700329A79 /* QRCodeReaderViewController.swift */; };
 		D4B8D042211291B700329A79 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D03F211291B700329A79 /* QRReaderViewController.swift */; };
 		E16FFACF50305B41A949FF26 /* Pods_nkoodiVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1C51315FD7DBA4A541034 /* Pods_nkoodiVendor.framework */; };
@@ -55,6 +58,9 @@
 		7062B60021124D23009F3E26 /* nkoodiVendorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nkoodiVendorUITests.swift; sourceTree = "<group>"; };
 		7062B60221124D23009F3E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8628FC5D62A644A1ED0911FF /* Pods-nkoodiVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor.debug.xcconfig"; sourceTree = "<group>"; };
+		8AA83EFE211330E8008F6CB0 /* TransactionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsManager.swift; sourceTree = "<group>"; };
+		8AA83F00211331EC008F6CB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8AA83F03211334A8008F6CB0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		918800FD3E8A08EE7C12EBFE /* Pods-nkoodiVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendor.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor.release.xcconfig"; sourceTree = "<group>"; };
 		AFDC8B007757138C3095F9B6 /* Pods-nkoodiVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorTests/Pods-nkoodiVendorTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE7AF89F104937DADB7F948C /* Pods-nkoodiVendorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorUITests/Pods-nkoodiVendorUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +122,8 @@
 		7062B5DF21124D23009F3E26 /* nkoodiVendor */ = {
 			isa = PBXGroup;
 			children = (
+				8AA83F0221133486008F6CB0 /* DataAccess */,
+				8AA83F00211331EC008F6CB0 /* GoogleService-Info.plist */,
 				D4B8D03C211291B700329A79 /* QRCode */,
 				7062B5E021124D23009F3E26 /* AppDelegate.swift */,
 				7062B5E421124D23009F3E26 /* Main.storyboard */,
@@ -142,6 +150,15 @@
 				7062B60221124D23009F3E26 /* Info.plist */,
 			);
 			path = nkoodiVendorUITests;
+			sourceTree = "<group>";
+		};
+		8AA83F0221133486008F6CB0 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				8AA83F03211334A8008F6CB0 /* User.swift */,
+				8AA83EFE211330E8008F6CB0 /* TransactionsManager.swift */,
+			);
+			path = DataAccess;
 			sourceTree = "<group>";
 		};
 		B6EFC094ECB8DD4DA4B69C0D /* Pods */ = {
@@ -288,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7062B5EB21124D23009F3E26 /* LaunchScreen.storyboard in Resources */,
+				8AA83F01211331EC008F6CB0 /* GoogleService-Info.plist in Resources */,
 				7062B5E821124D23009F3E26 /* Assets.xcassets in Resources */,
 				7062B5E621124D23009F3E26 /* Main.storyboard in Resources */,
 			);
@@ -399,8 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA83EFF211330E8008F6CB0 /* TransactionsManager.swift in Sources */,
 				D4B8D042211291B700329A79 /* QRReaderViewController.swift in Sources */,
 				D4B8D041211291B700329A79 /* QRCodeReaderViewController.swift in Sources */,
+				8AA83F04211334A8008F6CB0 /* User.swift in Sources */,
 				7062B5E121124D23009F3E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,7 +592,7 @@
 				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = nkoodiVendor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HH.nkoodiVendor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajjhackathon.nkoodi-vendor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,7 +608,7 @@
 				DEVELOPMENT_TEAM = SK6WUB3TZG;
 				INFOPLIST_FILE = nkoodiVendor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HH.nkoodiVendor;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajjhackathon.nkoodi-vendor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
