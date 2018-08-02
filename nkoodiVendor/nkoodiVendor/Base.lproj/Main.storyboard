@@ -69,7 +69,7 @@
         <!--Reader View Controller-->
         <scene sceneID="5pd-tW-cfS">
             <objects>
-                <viewController storyboardIdentifier="QRReaderViewController" id="S8J-Uq-gJ1" customClass="QRReaderViewController" customModule="nkoodi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QRReaderViewController" id="S8J-Uq-gJ1" customClass="QRReaderViewController" customModule="nkoodiVendor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eBa-rl-WGj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,8 +151,8 @@
                                         <fontDescription key="fontDescription" name="Acens" family="Acens" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juK-sQ-kDU">
-                                        <rect key="frame" x="270" y="0.0" width="45" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="juK-sQ-kDU">
+                                        <rect key="frame" x="270" y="0.0" width="30" height="50"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -161,7 +161,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="juK-sQ-kDU" firstAttribute="top" secondItem="qVM-Rl-6CP" secondAttribute="top" id="5HO-A4-fam"/>
-                                    <constraint firstAttribute="trailing" secondItem="juK-sQ-kDU" secondAttribute="trailing" id="EPH-Tm-PxR"/>
+                                    <constraint firstAttribute="trailing" secondItem="juK-sQ-kDU" secondAttribute="trailing" constant="15" id="EPH-Tm-PxR"/>
                                     <constraint firstItem="cEH-Wi-AtC" firstAttribute="top" secondItem="qVM-Rl-6CP" secondAttribute="top" id="KAj-nr-yk1"/>
                                     <constraint firstAttribute="bottom" secondItem="juK-sQ-kDU" secondAttribute="bottom" id="gwI-vD-Cbs"/>
                                     <constraint firstAttribute="bottom" secondItem="cEH-Wi-AtC" secondAttribute="bottom" id="nQc-RN-ypL"/>
