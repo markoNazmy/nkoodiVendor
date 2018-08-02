@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8334712024418FAC98E032 /* Pods_nkoodiVendorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D43B3C2CD442DDF038D4265 /* Pods_nkoodiVendorTests.framework */; };
+		686A3931538A2CE320A63238 /* Pods_nkoodiVendorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1382B783638361A835CC15 /* Pods_nkoodiVendorUITests.framework */; };
 		7062B5E121124D23009F3E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B5E021124D23009F3E26 /* AppDelegate.swift */; };
-		7062B5E321124D23009F3E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B5E221124D23009F3E26 /* ViewController.swift */; };
 		7062B5E621124D23009F3E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7062B5E421124D23009F3E26 /* Main.storyboard */; };
 		7062B5E821124D23009F3E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7062B5E721124D23009F3E26 /* Assets.xcassets */; };
 		7062B5EB21124D23009F3E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7062B5E921124D23009F3E26 /* LaunchScreen.storyboard */; };
 		7062B5F621124D23009F3E26 /* nkoodiVendorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B5F521124D23009F3E26 /* nkoodiVendorTests.swift */; };
 		7062B60121124D23009F3E26 /* nkoodiVendorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7062B60021124D23009F3E26 /* nkoodiVendorUITests.swift */; };
+		D4B8D041211291B700329A79 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D03E211291B700329A79 /* QRCodeReaderViewController.swift */; };
+		D4B8D042211291B700329A79 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8D03F211291B700329A79 /* QRReaderViewController.swift */; };
+		E16FFACF50305B41A949FF26 /* Pods_nkoodiVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1C51315FD7DBA4A541034 /* Pods_nkoodiVendor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23A1C51315FD7DBA4A541034 /* Pods_nkoodiVendor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nkoodiVendor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D43B3C2CD442DDF038D4265 /* Pods_nkoodiVendorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nkoodiVendorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFF927FD308A63865BE7911 /* Pods-nkoodiVendorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorUITests/Pods-nkoodiVendorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1382B783638361A835CC15 /* Pods_nkoodiVendorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nkoodiVendorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7062B5DD21124D23009F3E26 /* nkoodiVendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nkoodiVendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7062B5E021124D23009F3E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7062B5E221124D23009F3E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7062B5E521124D23009F3E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7062B5E721124D23009F3E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7062B5EA21124D23009F3E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		7062B5FC21124D23009F3E26 /* nkoodiVendorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nkoodiVendorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7062B60021124D23009F3E26 /* nkoodiVendorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nkoodiVendorUITests.swift; sourceTree = "<group>"; };
 		7062B60221124D23009F3E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8628FC5D62A644A1ED0911FF /* Pods-nkoodiVendor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor.debug.xcconfig"; sourceTree = "<group>"; };
+		918800FD3E8A08EE7C12EBFE /* Pods-nkoodiVendor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendor.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor.release.xcconfig"; sourceTree = "<group>"; };
+		AFDC8B007757138C3095F9B6 /* Pods-nkoodiVendorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorTests/Pods-nkoodiVendorTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE7AF89F104937DADB7F948C /* Pods-nkoodiVendorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorUITests/Pods-nkoodiVendorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D21BF527840395ADD49D1769 /* Pods-nkoodiVendorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nkoodiVendorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nkoodiVendorTests/Pods-nkoodiVendorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4B8D03E211291B700329A79 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		D4B8D03F211291B700329A79 /* QRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FFACF50305B41A949FF26 /* Pods_nkoodiVendor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8334712024418FAC98E032 /* Pods_nkoodiVendorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686A3931538A2CE320A63238 /* Pods_nkoodiVendorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				7062B5F421124D23009F3E26 /* nkoodiVendorTests */,
 				7062B5FF21124D23009F3E26 /* nkoodiVendorUITests */,
 				7062B5DE21124D23009F3E26 /* Products */,
+				B6EFC094ECB8DD4DA4B69C0D /* Pods */,
+				F52EF45230FCA867FF07B0A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +116,8 @@
 		7062B5DF21124D23009F3E26 /* nkoodiVendor */ = {
 			isa = PBXGroup;
 			children = (
+				D4B8D03C211291B700329A79 /* QRCode */,
 				7062B5E021124D23009F3E26 /* AppDelegate.swift */,
-				7062B5E221124D23009F3E26 /* ViewController.swift */,
 				7062B5E421124D23009F3E26 /* Main.storyboard */,
 				7062B5E721124D23009F3E26 /* Assets.xcassets */,
 				7062B5E921124D23009F3E26 /* LaunchScreen.storyboard */,
@@ -125,6 +144,38 @@
 			path = nkoodiVendorUITests;
 			sourceTree = "<group>";
 		};
+		B6EFC094ECB8DD4DA4B69C0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8628FC5D62A644A1ED0911FF /* Pods-nkoodiVendor.debug.xcconfig */,
+				918800FD3E8A08EE7C12EBFE /* Pods-nkoodiVendor.release.xcconfig */,
+				D21BF527840395ADD49D1769 /* Pods-nkoodiVendorTests.debug.xcconfig */,
+				AFDC8B007757138C3095F9B6 /* Pods-nkoodiVendorTests.release.xcconfig */,
+				3BFF927FD308A63865BE7911 /* Pods-nkoodiVendorUITests.debug.xcconfig */,
+				BE7AF89F104937DADB7F948C /* Pods-nkoodiVendorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4B8D03C211291B700329A79 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				D4B8D03E211291B700329A79 /* QRCodeReaderViewController.swift */,
+				D4B8D03F211291B700329A79 /* QRReaderViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		F52EF45230FCA867FF07B0A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23A1C51315FD7DBA4A541034 /* Pods_nkoodiVendor.framework */,
+				2D43B3C2CD442DDF038D4265 /* Pods_nkoodiVendorTests.framework */,
+				4F1382B783638361A835CC15 /* Pods_nkoodiVendorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7062B60521124D23009F3E26 /* Build configuration list for PBXNativeTarget "nkoodiVendor" */;
 			buildPhases = (
+				D08B474A2E23000D29AF6FB7 /* [CP] Check Pods Manifest.lock */,
 				7062B5D921124D23009F3E26 /* Sources */,
 				7062B5DA21124D23009F3E26 /* Frameworks */,
 				7062B5DB21124D23009F3E26 /* Resources */,
+				23F6E7432C383095362EA17C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7062B60821124D23009F3E26 /* Build configuration list for PBXNativeTarget "nkoodiVendorTests" */;
 			buildPhases = (
+				DAFF60F3172B7BDBD877C7DB /* [CP] Check Pods Manifest.lock */,
 				7062B5ED21124D23009F3E26 /* Sources */,
 				7062B5EE21124D23009F3E26 /* Frameworks */,
 				7062B5EF21124D23009F3E26 /* Resources */,
@@ -167,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7062B60B21124D23009F3E26 /* Build configuration list for PBXNativeTarget "nkoodiVendorUITests" */;
 			buildPhases = (
+				569D375DE769E175AC107C12 /* [CP] Check Pods Manifest.lock */,
 				7062B5F821124D23009F3E26 /* Sources */,
 				7062B5F921124D23009F3E26 /* Frameworks */,
 				7062B5FA21124D23009F3E26 /* Resources */,
@@ -254,12 +309,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23F6E7432C383095362EA17C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nkoodiVendor/Pods-nkoodiVendor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569D375DE769E175AC107C12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nkoodiVendorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08B474A2E23000D29AF6FB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nkoodiVendor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFF60F3172B7BDBD877C7DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nkoodiVendorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7062B5D921124D23009F3E26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7062B5E321124D23009F3E26 /* ViewController.swift in Sources */,
+				D4B8D042211291B700329A79 /* QRReaderViewController.swift in Sources */,
+				D4B8D041211291B700329A79 /* QRCodeReaderViewController.swift in Sources */,
 				7062B5E121124D23009F3E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +565,7 @@
 		};
 		7062B60621124D23009F3E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8628FC5D62A644A1ED0911FF /* Pods-nkoodiVendor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -431,13 +573,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HH.nkoodiVendor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7062B60721124D23009F3E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918800FD3E8A08EE7C12EBFE /* Pods-nkoodiVendor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,13 +588,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HH.nkoodiVendor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		7062B60921124D23009F3E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21BF527840395ADD49D1769 /* Pods-nkoodiVendorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +612,7 @@
 		};
 		7062B60A21124D23009F3E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC8B007757138C3095F9B6 /* Pods-nkoodiVendorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +629,7 @@
 		};
 		7062B60C21124D23009F3E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFF927FD308A63865BE7911 /* Pods-nkoodiVendorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +645,7 @@
 		};
 		7062B60D21124D23009F3E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7AF89F104937DADB7F948C /* Pods-nkoodiVendorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
