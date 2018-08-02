@@ -64,7 +64,7 @@ class TransactionsManager{
                                                  "amount_changed" : amount * -1,
                                                  "vendor" : vendor,
                                                  "operation" : operation]
-        ref.child("users").child(user.id).child("balance_history").updateChildValues(transaction)
+        ref.child("users").child(user.id).child("balance_history").childByAutoId().updateChildValues(transaction)
         if status == "approved"{
             ref.child("users").child(user.id).child("current_balance").observeSingleEvent(of: .value, with: {snapshot in
                 if let oldAmount = snapshot.value as? Double{
