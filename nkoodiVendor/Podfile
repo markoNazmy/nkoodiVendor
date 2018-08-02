@@ -8,6 +8,7 @@ target 'nkoodiVendor' do
   pod 'Firebase/Auth'
   pod 'QRCode'
   pod 'IQKeyboardManagerSwift'
+  pod 'Pastel'
 
   target 'nkoodiVendorTests' do
     inherit! :search_paths
